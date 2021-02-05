@@ -5,11 +5,13 @@
   <div>
   <b-jumbotron id="head" align="center"   text-variant="info" >
     <h1>KuchToh Technologies Pvt. Ltd.</h1><br>
+    <div ><h4 id="hire">Coming Soon...</h4></div><br>
      <p>
       KuchToh Technologies Pvt. Ltd. is an upcoming Startup into Healthcare sector.<br>
       We welcome you to join & be part of the change, along with exciting work ranging from planning to final shaping of the product.
     </p>
   </b-jumbotron>
+ 
 </div>
 <div ><h4 id="hire">We are Hiring...</h4></div>
 <div class="row">
@@ -34,50 +36,7 @@
 
           <b>To apply, mail your resume to: kuchtohtechnologies@gmail.com.</b></b-card-text>
       </b-card>
-      <b-card
-      id="card"
-      align="left"   
-      text-variant="info" 
-      >
-         <h4>JOB ID: D002<br>
-             JOB TYPE: Full time Software Developer<br>
-             LOCATION: Bengaluru
-         </h4>
-        <b-card-text>Looking for enthusiastic <b>software developer</b>, 
-          willing to work in a startup setup with work ranging from software
-          maintenance to client interactions.<br><br>
-
-          <b><u>REQUIRED SKILLS:</u></b> Node.js, Vue/Nuxt, Postgresql, Progressive Web App,<br>
-          with preliminary relevant experience and good communication skills.<br><br>
-
-          <b><u>PREFERRED SKILLS:</u></b> Graphics Design, Video Editing, Social media and Digital Marketing.<br><br>
-
-          <b><u>SALARY:</u></b> 3L to 3.5L per year<br><br>
-
-         <b> To apply, mail your resume to: kuchtohtechnologies@gmail.com.</b></b-card-text>
-      </b-card>
-
-       <b-card
-      id="card"
-      align="left"   
-      text-variant="info" 
-      >
-         <h4>JOB ID: I001<br>
-             JOB TYPE: Intern(Software Developer)<br>
-             LOCATION: Bengaluru
-         </h4>
-        <b-card-text>Looking for enthusiastic <b>graduates/students in computer science domain,</b>, 
-          willing to work in a startup setup.<br><br>
-
-          <b><u>REQUIRED SKILLS:</u></b> HTML, CSS, Python, Graphics Design and Video Editing,<br>
-          Social media and Digital Marketing.<br><br>
-
-          <b><u>PREFERRED SKILLS:</u></b> Vue/Nuxt, Node.js, Postgresql.<br><br>
-
-          <b><u>Perks:</u></b><br>1. Experience Certificate<br>2. Letter of recommendation<br>3. Internship extendable to employement based on performance.<br><br>
-
-         <b> To apply, mail your resume to: kuchtohtechnologies@gmail.com with the subject-line (Job ID/Start Date/Number of Months)</b></b-card-text>
-      </b-card>
+     
       <b-card
       id="card"
       align="left"   
@@ -124,19 +83,57 @@
           4. Business Development related work
           <br><br>
 
-          <b><u>Perks:</u></b><br>1. Experience Certificate<br>2. Letter of recommendation<br>3. Internship extendable to employement based on performance.<br><br>
+          <b><u>Perks:</u></b><br>1. Experience Certificate<br>2. Letter of recommendation<br>3. Flexible working hours with work from home.<br><br>
 
          <b> To apply, mail your resume to: kuchtohtechnologies@gmail.com with the subject-line (Job ID/Start Date/Number of Months)</b></b-card-text>
       </b-card>
     </div>
+     <div id="div">
+    <section>
+      <article>
+        <details>
+          <summary><h4 id="hire">Are you a Doctor??    <span id="plus">&#9660;</span></h4></summary>
+          <details>
+            <summary id="sum"><h5 id="hire">Watch this area, we have more coming for you! </h5></summary>
+            
+          </details>
+         </details>
+      </article>
+    </section>
+  </div><br><br>
     <div class="footer">
   <p>KuchToh Technologies Pvt. Ltd &#169; 2021 </p>
 </div>
     </body>
 </template>
 <style scoped>
+#plus{
+  color: #ffffff;
+}
+ summary::-webkit-details-marker {
+display: none;
+ 
+}
+summary:focus {
+	outline-style: none;
+}
+article > details > summary {
+	font-size: 28px;
+	margin-top: 16px;
+}
+details > p {
+	margin-left: 24px;
+}
+details details {
+	margin-left: 36px;
+}
+details details summary {
+	font-size: 16px;
+}
+
 #hire{
-  
+  padding: 15px;
+  color: #2280F7;
   text-align: center;
 }
 .footer {
@@ -147,6 +144,10 @@
    height: 50px;
    color: white;
    text-align: center;
+}
+#sum
+{
+  height: 50px;;
 }
 h1 {
   font-family: Arial, sans-serif;
