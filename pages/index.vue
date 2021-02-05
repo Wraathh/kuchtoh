@@ -11,6 +11,7 @@
     </p>
   </b-jumbotron>
 </div>
+<div ><h4 id="hire">We are Hiring...</h4></div>
 <div class="row">
        <b-card
        id="card"
@@ -134,6 +135,10 @@
     </body>
 </template>
 <style scoped>
+#hire{
+  
+  text-align: center;
+}
 .footer {
    padding-bottom: 10px;
    left: 0;
