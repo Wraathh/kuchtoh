@@ -1,11 +1,21 @@
-*{
-    padding: 2px;
-    margin: 2px;
-}
+
 body{
     background-color: black;
 }
+#logo{
+  
+  height: 300px;
+}
+#bTxt{
+  text-align: left;
+}
 
+@media only screen and (max-width: 600px) {
+  #logo {
+    width: 100%;
+    height: auto;
+  }
+  }
 /*JUMBOTRON*/
 #header{
     background-color: #181616; 
@@ -36,6 +46,8 @@ h5{
     border: 3px solid rgb(253, 238, 209);
     padding: 10px;
     background-color:#181616;
+    z-index: 0;
+    
     
   }
   ul{

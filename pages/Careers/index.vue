@@ -10,7 +10,7 @@
              JOB TYPE: Full time Senior Software Developer<br>
              LOCATION: Bengaluru
          </h4>
-        <b-card-text>Looking for an enthusiastic, full stack developer, willing to work in a startup setup.<br><br>
+        <b-card-text id="bTxt">Looking for an enthusiastic, full stack developer, willing to work in a startup setup.<br><br>
 
           <b><u>REQUIRED SKILLS:</u></b> Node.js, Express.js, Vue/Nuxt, Postgresql,<br>
           Progressive Web App, with a minimum of 2 years of relevant experience.<br><br>
@@ -32,7 +32,7 @@
              JOB TYPE: Intern(Marketing)<br>
              LOCATION: Bengaluru
          </h4>
-        <b-card-text>Looking for enthusiastic <b>Marketing post-graduates/graduates,</b> 
+        <b-card-text id="bTxt">Looking for enthusiastic <b>Marketing post-graduates/graduates,</b> 
           willing to work in a startup setup.<br><br>
 
           <b><u>REQUIREMENT:</u></b> MBA in Marketing and Sales<br><br>
@@ -56,7 +56,7 @@
              JOB TYPE: Intern(Law)<br>
              LOCATION: Bengaluru
          </h4>
-        <b-card-text><b><u>QUALIFICATION AND SKILLS:</u></b><br>
+        <b-card-text id="bTxt"><b><u>QUALIFICATION AND SKILLS:</u></b><br>
         1. Graduated in Law<br>
         2. Excellent English (oral and written) is a must<br>
         3. Must have good MS Office skills, mainly MS Word, MS Excel or equivalent<br>
