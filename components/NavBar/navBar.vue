@@ -13,7 +13,12 @@
        
       </b-navbar-nav>
 
-    
+     <b-navbar-nav class="ml-auto">
+        <b-nav-item-dropdown text="Take a Survey" right>
+          <b-dropdown-item href="https://forms.gle/WJ7T1B4TEnM5ekUPA" target="_blank">For Consultants</b-dropdown-item>
+          <b-dropdown-item href="https://forms.gle/vVDpKacMQdPkVGqx6" target="_blank">For Clinics/Hospitals</b-dropdown-item>
+        </b-nav-item-dropdown>
+     </b-navbar-nav>
     </b-collapse>
   </b-navbar>
    </div>
